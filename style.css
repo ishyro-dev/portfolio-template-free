@@ -24,8 +24,10 @@ html {
 }
 
 body {
-    background: var(--bg-color);
-    color: var(--text-color);
+    background: linear-gradient(to bottom, #1a0b2e, #3a1f5c);
+    color: white; /* Texto en blanco para mejor contraste */
+    font-family: Arial, sans-serif;
+    transition: background 0.9s ease-in-out; /* Transición más rápida */
 }
 
 .header {
